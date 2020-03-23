@@ -8,7 +8,7 @@ server:
 spring:
   datasource:    
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5430/entry    
+    url: jdbc:postgresql://localhost:5430/restaurant    
     username: githubuser
     password: dbPass123
   #Hibernate

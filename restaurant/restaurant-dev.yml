@@ -1,0 +1,27 @@
+# DEV environment setting#
+#---------------------------
+# Server Port
+server:
+  port: 8040
+  
+# Database ---------------- Postgres
+spring:
+  datasource:    
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5430/entry    
+    username: githubuser
+    password: dbPass123
+  #Hibernate
+  jpa:
+    #Hibernate
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    properties:
+      hibernate:
+        jdbc:
+          lob:
+            non_contextual_creation: true
+    generate-ddl: true
+    show-sql: false
+    

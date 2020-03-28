@@ -3,7 +3,6 @@
 # Server Port
 server:
   port: 8041
-  contextPath: /api
   
 # Database ---------------- Postgres
 spring:

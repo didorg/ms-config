@@ -25,3 +25,11 @@ spring:
     generate-ddl: true
     show-sql: false
     
+#Services
+customer:
+  rest:
+    host: http://localhost:8041/customers/
+
+restaurant:
+  rest:
+    host: http://localhost:8040/restaurants/

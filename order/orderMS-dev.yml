@@ -1,8 +1,5 @@
 # DEV environment setting#
 #---------------------------
-# Server Port
-server:
-  port: 8042
   
 # Database ---------------- Postgres
 spring:

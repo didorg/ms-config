@@ -32,4 +32,4 @@ customer:
 
 restaurant:
   rest:
-    host: http://localhost:8040/restaurants/
+    host: http://localhost:8043/restaurants/

@@ -2,7 +2,7 @@
 #---------------------------
 # Server Port
 server:
-  port: 8040
+  port: 8043
   
 # Database ---------------- Postgres
 spring:

@@ -25,6 +25,13 @@ spring:
     generate-ddl: true
     show-sql: false
     
+# Actuator allow all for dev
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+    
 # REST APIs
 customer:
   rest:

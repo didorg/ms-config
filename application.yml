@@ -1,6 +1,6 @@
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:2525/eureka
+      defaultZone: http://Eur1:2525/eureka, http://Eur1:2424/eureka
   instance:
     instance-id: ${spring.cloud.client.hostname}:${spring.application.name}:${spring.application.instance_id:${random.value}}

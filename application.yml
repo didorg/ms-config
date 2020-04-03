@@ -10,4 +10,4 @@ spring:
     sampler:
       percentage: 1.0
   zipkin:
-    baseurl: http://localhost:4445
+    baseurl: http://localhost:9411

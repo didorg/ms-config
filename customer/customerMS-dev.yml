@@ -7,7 +7,7 @@ spring:
     driver-class-name: org.postgresql.Driver
     url: jdbc:postgresql://localhost:5430/customer    
     username: githubuser
-    password: dbPass123
+    password: '{cipher}e54d4f03e0976f0c7f2d94b2abc5a8659a902299901607fc3ca126a345ded471'
   #Hibernate
   jpa:
     #Hibernate
